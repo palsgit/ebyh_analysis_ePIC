@@ -21,8 +21,8 @@ merge_new.sh e-_1GeV_hcal_only
 ```
 optionally change the names in alphabetic order (aoutput_e-_1GeV_hcal_only.root, boutput_e-_2GeV_hcal_only.root, etc.)
 
-Then copy `*hcal_only.root`s to the working dir. One can further analyze it and plot energy deposition distribution, sampling fraction, etc. histogram using `ebyh_ana.C ("particle species (e.g. e-)", "path\to\working\dir")`
+Then copy `*hcal_only.root`s to the working dir. One can further analyze it and plot energy deposition distribution, sampling fraction, etc. histograms using `ebyh_ana.C ("particle species (e.g. e-)", "path\to\working\dir")`
 
-repeat same procedure for pi-.
+repeat the same procedure for pi-.
 
 run `ebyh_ratio.C` to get e/h ratio plot.
